@@ -1,0 +1,23 @@
+name: CI Test
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 📂 Show files
+        run: ls -la
+
+      - name: ✅ Confirm HTML exists
+        run: test -f index.html
+
+      - name: 🎉 Done
+        run: echo "Pipeline working successfully"
