@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahrukh Ahmed — Software Engineer</title>
+<link rel="icon" type="image/png" href="images/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+<div class="grid-bg"></div>
+
+<!-- ══ WHATSAPP FLOATING BUTTON ══ -->
+<a class="wa-btn" href="https://wa.me/923152866908?text=Hi%20Shahrukh!%20I%20found%20your%20portfolio%20and%20want%20to%20discuss%20a%20project." target="_blank" rel="noopener">
+ <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+ <span class="wa-lbl">Chat on WhatsApp</span>
+</a>
+
+<!-- ══ NAV ══ -->
+<nav>
+ <div class="logo">shahrukh<span>.</span>dev</div>
+ <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+  <span></span>
+  <span></span>
+  <span></span>
+ </button>
+ <ul class="nav-links">
+ <li><a href="#about">About</a></li>
+ <li><a href="#skills">Skills</a></li>
+ <li><a href="#projects">Projects</a></li>
+ <li><a href="#services">Services</a></li>
+ <li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero" id="home">
+ <div class="glow1"></div><div class="glow2"></div>
+  <div class="hero-content">
+ <div class="hero-tag">Available for Onsite & Remote Work · Pakistan</div>  <h1>
+    Shahrukh<br>
+    <span class="outline">Ahmed</span><br>
+ <span class="green">Software Engineer</span> </h1>
+
+  <p class="hero-desc">
+    Solution-oriented Software Engineer with hands-on experience building scalable web applications, CRMs, and enterprise-grade systems using modern technologies. Focused on clean architecture, performance, and maintainability across production-level projects.
+  </p>
+
+  <div class="hero-actions">
+    <a href="#projects" class="btn btn-p">View Projects →</a>
+    <a href="#contact" class="btn btn-o">Hire Me</a>
+  </div>
+
+  <div class="hero-stats">
+    <div>
+    <div class="stat-n">4</div>
+    <div class="stat-l">Years Experience</div>
+    </div>
+
+    <div>
+    <div class="stat-n">10+</div>
+    <div class="stat-l">Projects Built</div>
+    </div>
+
+    <div>
+    <div class="stat-n">10+</div>
+    <div class="stat-l">Services Offered</div>
+    </div>
+
+    <div>
+    <div class="stat-n">PKT</div>
+    <div class="stat-l">Timezone Available</div>
+    </div>
+  </div>
+
+  </div>
+  <div class="hero-web">
+
+  <div class="web-window">
+
+    <!-- Top bar (like VS Code / browser) -->
+    <div class="web-topbar">
+    <div class="web-tabs">
+      <span class="tab active">portfolio.js</span>
+      <span class="tab">app.tsx</span>
+      <span class="tab">index.html</span>
+    </div>
+
+    <div class="web-status">
+      <span class="dot"></span>
+      <span>Running</span>
+    </div>
+    </div>
+
+    <!-- Sidebar + content -->
+    <div class="web-body">
+
+    <!-- sidebar -->
+    <div class="web-sidebar">
+      <div class="file"> src</div>
+      <div class="file"> components</div>
+      <div class="file"> services</div>
+      <div class="file active"> portfolio.js</div>
+    </div>
+
+    <!-- editor -->
+    <div class="web-editor">
+
+      <div class="code-line"><span class="num">1</span>const developer = {</div>
+      <div class="code-line"><span class="num">2</span>&nbsp;&nbsp;name: "Shahrukh Ahmed",</div>
+      <div class="code-line"><span class="num">3</span>&nbsp;&nbsp;role: "Software Engineer",</div>
+      <div class="code-line"><span class="num">4</span>&nbsp;&nbsp;stack: ["React", "Node", "Laravel"],</div>
+      <div class="code-line"><span class="num">5</span>&nbsp;&nbsp;passion: "Building scalable systems"</div>
+      <div class="code-line"><span class="num">6</span>}</div>
+
+      <!-- mini project preview -->
+      <div class="mini-card">
+      <div class="mini-title">Latest Project</div>
+      <div class="mini-bar"></div>
+      <div class="mini-text">CRM • Dashboard • API System</div>
+      </div>
+
+    </div>
+
+    </div>
+
+  </div>
+
+  </div>
+</section>
+
+<!-- ══ ABOUT ══ -->
+<section class="about" id="about">
+  <div class="reveal">
+
+  <div class="sec-lbl">About</div>
+
+  <h2>
+    Building Scalable Web Systems<br>
+    <span style="color:var(--accent)">That Solve Real Problems</span>
+  </h2>
+
+    <p class="about-txt">
+    I'm Shahrukh Ahmed, a Full Stack Software Engineer with 4 years of experience building scalable, production-grade web applications, CRMs, and enterprise systems. I specialize in converting complex business requirements into reliable, high-performance, and maintainable software solutions that deliver measurable real-world impact.
+    </p>
+
+    <p class="about-txt">
+    My focus is on designing and engineering systems that scale effectively in both architecture and performance. I work primarily on backend-driven applications where clean structure, maintainability, and system reliability are critical for long-term success.
+    </p>
+
+    <p class="about-txt">
+    I have built and delivered RESTful APIs, real-time applications using WebSockets, and secure integrations with third-party services including payment gateways and AI-powered APIs. My experience includes developing CRMs, analytics platforms, reporting systems, and production-grade features used in live business environments.
+    </p>
+
+  <a href="#contact" class="btn btn-p" style="display:inline-flex;margin-top:8px">
+    Let's Work Together →
+  </a>
+
+  </div>
+ <div class="about-r reveal" style="transition-delay:.15s">
+    <div class="sec-lbl">Engineering Capabilities</div>
+
+    <div class="tech-grid">
+        <div class="tech-item"><div class="tdot"></div>Design and development of scalable RESTful APIs</div>
+        <div class="tech-item"><div class="tdot"></div>Integration of third-party services and external APIs</div>
+        <div class="tech-item"><div class="tdot"></div>Real-time communication systems using WebSockets</div>
+        <div class="tech-item"><div class="tdot"></div>Secure payment gateway integration and transaction handling</div>
+        <div class="tech-item"><div class="tdot"></div>Database architecture design, optimization, and performance tuning</div>
+        <div class="tech-item"><div class="tdot"></div>AI-powered application development (OpenAI & multi-LLM integration)</div>
+        <div class="tech-item"><div class="tdot"></div>Cross-browser extension development for Chrome and Firefox</div>
+        <div class="tech-item"><div class="tdot"></div>Cloud-based deployment and hosting across modern platforms</div>
+        <div class="tech-item"><div class="tdot"></div>Implementation of secure authentication and application security systems</div>
+        <div class="tech-item"><div class="tdot"></div>Version control and collaborative development using Git-based workflows</div>
+    </div>
+ </div>
+</section>
+
+<!-- ══ SKILLS ══ -->
+<section class="skills" id="skills">
+ <div class="reveal"><div class="sec-lbl">Skills</div><h2>Technical<br>Proficiency</h2></div>
+
+ <div class="sec-lbl mb-0 mt-40px">Languages</div>
+
+ <div class="skill-bars">
+  <div class="reveal"><div class="skh"><span class="skn">PHP</span><span class="skp">95%</span></div><div class="sk-track"><div class="sk-fill" data-w=".90"></div></div></div>
+  <div class="reveal" style="transition-delay:.05s"><div class="skh"><span class="skn">JavaScript</span><span class="skp">88%</span></div><div class="sk-track"><div class="sk-fill" data-w=".88"></div></div></div>
+  <div class="reveal" style="transition-delay:.1s"><div class="skh"><span class="skn">TypeScript</span><span class="skp">82%</span></div><div class="sk-track"><div class="sk-fill" data-w=".85"></div></div></div>
+  <div class="reveal" style="transition-delay:.1s"><div class="skh"><span class="skn">HTML/CSS</span><span class="skp">90%</span></div><div class="sk-track"><div class="sk-fill" data-w=".85"></div></div></div>
+  <div class="reveal" style="transition-delay:.1s"><div class="skh"><span class="skn">SQL</span><span class="skp">90%</span></div><div class="sk-track"><div class="sk-fill" data-w=".85"></div></div></div>
+</div>
+
+ <div class="sec-lbl mb-0 mt-40px">Frameworks & Libraries</div>
+
+ <div class="skill-bars">
+  <div class="reveal"><div class="skh"><span class="skn">Laravel</span><span class="skp">95%</span></div><div class="sk-track"><div class="sk-fill" data-w=".90"></div></div></div>
+  <div class="reveal" style="transition-delay:.05s"><div class="skh"><span class="skn">Node.js</span><span class="skp">91%</span></div><div class="sk-track"><div class="sk-fill" data-w=".88"></div></div></div>
+  <div class="reveal" style="transition-delay:.05s"><div class="skh"><span class="skn">Express.js</span><span class="skp">90%</span></div><div class="sk-track"><div class="sk-fill" data-w=".88"></div></div></div>
+  <div class="reveal" style="transition-delay:.1s"><div class="skh"><span class="skn">React.js</span><span class="skp">86%</span></div><div class="sk-track"><div class="sk-fill" data-w=".85"></div></div></div>
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">Next.js</span><span class="skp">83%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div>
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">jQuery</span><span class="skp">94%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div>
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">Bootstrap</span><span class="skp">93%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div>
+</div>
+
+ <div class="sec-lbl mb-0 mt-40px">Databases</div>
+
+ <div class="skill-bars">
+  <div class="reveal"><div class="skh"><span class="skn">MySQL</span><span class="skp">92%</span></div><div class="sk-track"><div class="sk-fill" data-w=".90"></div></div></div>
+  <div class="reveal" style="transition-delay:.05s"><div class="skh"><span class="skn">MongoDB</span><span class="skp">86%</span></div><div class="sk-track"><div class="sk-fill" data-w=".88"></div></div></div>
+  <div class="reveal" style="transition-delay:.1s"><div class="skh"><span class="skn">PostgreSQL</span><span class="skp">82%</span></div><div class="sk-track"><div class="sk-fill" data-w=".85"></div></div></div>
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">Redis</span><span class="skp">85%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div>
+ </div>
+
+ <div class="sec-lbl mb-0 mt-40px">Developer Tools</div>
+
+ <div class="skill-bars">
+  <div class="reveal"><div class="skh"><span class="skn">Git (Github, Bitbucket, GitLab)</span><span class="skp">94%</span></div><div class="sk-track"><div class="sk-fill" data-w=".90"></div></div></div>
+  <div class="reveal" style="transition-delay:.05s"><div class="skh"><span class="skn">VS Code</span><span class="skp">96%</span></div><div class="sk-track"><div class="sk-fill" data-w=".88"></div></div></div>
+  <div class="reveal" style="transition-delay:.1s"><div class="skh"><span class="skn">Postman</span><span class="skp">95%</span></div><div class="sk-track"><div class="sk-fill" data-w=".85"></div></div></div>
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">Cloudflare</span><span class="skp">90%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div>
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">Firebase</span><span class="skp">95%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div> 
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">Vercel</span><span class="skp">92%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div> 
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">Neltify</span><span class="skp">92%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div> 
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">OpenAI</span><span class="skp">90%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div> 
+  <div class="reveal" style="transition-delay:.15s"><div class="skh"><span class="skn">Docker</span><span class="skp">87%</span></div><div class="sk-track"><div class="sk-fill" data-w=".87"></div></div></div> 
+</div>
+
+</section>
+
+<!-- ══ PROJECTS ══ -->
+<section class="projects" id="projects">
+ <div class="reveal"><div class="sec-lbl">Projects</div><h2>Featured Work</h2></div>
+ <div class="proj-grid">
+  <a class="proj-card reveal" href="https:notes-rosy-mu.vercel.app" target="_blank" rel="noopener" >
+   <div class="proj-img">
+    <img src="images/notes-app.png" class="position-top"/>
+    <div class="proj-store-badge">
+     <svg viewBox="0 0 24 24" fill="#3ddc84"><path d="M3.18 23.76c.33.18.71.22 1.06.12l12.76-7.36-2.89-2.89zm17.63-10.98-2.64-1.52-3.22 3.22 3.22 3.23 2.66-1.54c.75-.44.75-1.16-.02-1.39zM4.24.12 17.12 9.48l-2.89 2.89zm-.06.39v23l10.56-11.5z"/></svg>
+     View
+    </div>
+   </div>
+    <div class="proj-body">
+    <div class="proj-num">01</div>
+    <div class="proj-type">Utility App — Notes</div>
+    <div class="proj-title">Notes Application — Smart & Organized Note Management</div>
+    <p class="proj-desc">
+        A full-stack notes platform with note organization, pin/archiving, categories, tags, and file attachments for a smooth and structured experience.
+    </p>
+    <div class="tags">
+        <span class="tag">Next.js</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Express.js</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">RESTful APIs</span>
+        <span class="tag">Github</span>
+        <span class="tag">Vercel</span>
+    </div>
+    </div>
+  </a>
+  <a class="proj-card reveal" href="https://expense-tracker.alternatesites.com" target="_blank" rel="noopener" style="transition-delay:.1s">
+   <div class="proj-img">
+    <img src="images/expense-tracker.png" class="position-top"/>
+    <div class="proj-store-badge">
+     <svg viewBox="0 0 24 24" fill="#3ddc84"><path d="M3.18 23.76c.33.18.71.22 1.06.12l12.76-7.36-2.89-2.89zm17.63-10.98-2.64-1.52-3.22 3.22 3.22 3.23 2.66-1.54c.75-.44.75-1.16-.02-1.39zM4.24.12 17.12 9.48l-2.89 2.89zm-.06.39v23l10.56-11.5z"/></svg>
+     View
+    </div>
+   </div>
+    <div class="proj-body">
+    <div class="proj-num">02</div>
+    <div class="proj-type">Utility App — Finance</div>
+    <div class="proj-title">Expense Tracker — Smart Financial Management System</div>
+    <p class="proj-desc">
+        A full-stack expense tracker with income/expense monitoring, category-based organization, budgets, recurring transactions, and real-time financial insights.
+    </p>
+    <div class="tags">
+        <span class="tag">React.js</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Express.js</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">RESTful APIs</span>
+        <span class="tag">Github</span>
+    </div>
+    </div>
+  </a>
+  <a class="proj-card reveal" href="https://www.my-equipment.com" target="_blank" rel="noopener" style="transition-delay:.2s">
+   <div class="proj-img">
+    <img src="images/my-equipment.png" class="position-top"/>
+    <div class="proj-store-badge">
+     <svg viewBox="0 0 24 24" fill="#3ddc84"><path d="M3.18 23.76c.33.18.71.22 1.06.12l12.76-7.36-2.89-2.89zm17.63-10.98-2.64-1.52-3.22 3.22 3.22 3.23 2.66-1.54c.75-.44.75-1.16-.02-1.39zM4.24.12 17.12 9.48l-2.89 2.89zm-.06.39v23l10.56-11.5z"/></svg>
+     View
+    </div>
+   </div>
+    <div class="proj-body">
+    <div class="proj-num">03</div>
+    <div class="proj-type">Business Platform — Equipment Marketplace</div>
+    <div class="proj-title">MY Equipment — Heavy Machinery Trading Platform</div>
+    <p class="proj-desc">
+        Worked on feature enhancements, theme customization, admin panel improvements, and real-time updates using WebSockets to improve platform functionality and user experience.
+    </p>
+    <div class="tags">
+        <span class="tag">Web Development</span>
+        <span class="tag">Admin Panel</span>
+        <span class="tag">WebSockets</span>
+        <span class="tag">Feature Enhancement</span>
+    </div>
+    </div>
+  </a>
+ </div>
+   </div>         
+</section>
+
+<!-- ══ SERVICES ══ -->
+<section class="services" id="services">
+ <div class="reveal">
+  <div class="sec-lbl">Services</div>
+  <h2>What I Can Build<br><span style="color:var(--accent)">For You</span></h2>
+ </div>
+
+ <div class="srv-grid">
+
+  <div class="srv-item reveal">
+   <div class="srv-icon">💻</div>
+   <div class="srv-title">Full-Stack Web Applications</div>
+   <p class="srv-desc">Scalable and high-performance applications with modern architectures and clean UI/UX.</p>
+  </div>
+
+  <div class="srv-item reveal" style="transition-delay:.1s">
+   <div class="srv-icon">🧠</div>
+   <div class="srv-title">Backend Development</div>
+   <p class="srv-desc">Secure and optimized backend systems with REST APIs, authentication, and business logic.</p>
+  </div>
+
+  <div class="srv-item reveal" style="transition-delay:.2s">
+   <div class="srv-icon">⚡</div>
+   <div class="srv-title">Real-Time Applications</div>
+   <p class="srv-desc">WebSocket-powered features like live updates, chat systems, notifications, and dashboards.</p>
+  </div>
+
+  <div class="srv-item reveal" style="transition-delay:.05s">
+   <div class="srv-icon">🗄️</div>
+   <div class="srv-title">Database Design & Optimization</div>
+   <p class="srv-desc">Efficient schema design, indexing, and performance tuning for scalable data systems.</p>
+  </div>
+
+  <div class="srv-item reveal" style="transition-delay:.15s">
+   <div class="srv-icon">🔗</div>
+   <div class="srv-title">Third-Party Integrations</div>
+   <p class="srv-desc">Seamless integration of APIs, payment gateways, and external services.</p>
+  </div>
+
+  <div class="srv-item reveal" style="transition-delay:.25s">
+   <div class="srv-icon">🚀</div>
+   <div class="srv-title">Deployment & Maintenance</div>
+   <p class="srv-desc">Production deployment, optimization, and long-term application support.</p>
+  </div>
+
+ </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section class="contact" id="contact">
+ <div class="reveal">
+  <div class="sec-lbl">Contact</div>
+  <h2>Let's Build<br><span style="color:var(--accent)">Something</span></h2>
+  <p class="c-desc">Available for full-time (onsite/remote) roles and freelance projects. Strong focus on quality delivery and clear communication.</p>
+  <div class="c-links">
+   <a href="mailto:ashahrukh127@gmail.com" class="c-link">
+    <div class="c-icon">✉️</div>ashahrukh127@gmail.com
+   </a>
+   <a href="https://www.linkedin.com/in/shahrukh-ahmed-57229b185" target="_blank" class="c-link">
+    <div class="c-icon" style="font-family:'Syne',sans-serif;font-weight:800;font-size:.75rem;color:#0a66c2;background:#0a1929;">in</div>
+    shahrukh-ahmed
+   </a>
+   <a href="https://github.com/shahrukhdev" target="_blank" class="c-link">
+    <div class="c-icon">
+     <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+    </div>
+    github.com/shahrukhdev
+   </a>
+   <a href="https://wa.me/923152866908?text=Hi%20Shahrukh!" target="_blank" class="c-link wa">
+    <div class="c-icon" style="background:#1a2e1a">
+     <svg width="16" height="16" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </div>
+    +923152866908
+   </a>
+  </div>
+ </div>
+
+ <div class="c-form reveal" style="transition-delay:.15s">
+  <div class="sec-lbl" style="margin-bottom:24px">Send Me a Message</div>
+  <div class="fg"><label class="fl">Your Name</label><input type="text" id="fn" class="fi" placeholder="John Smith"></div>
+  <div class="fg"><label class="fl">Your Email</label><input type="email" id="fe" class="fi" placeholder="john@company.com"></div>
+  <div class="fg"><label class="fl">Project Type</label><input type="text" id="fp" class="fi" placeholder="App / Freelance / Full-time"></div>
+  <div class="fg"><label class="fl">Message</label><textarea id="fm" class="ft" placeholder="Tell me about your project..."></textarea></div>
+  <button class="btn btn-p" id="sendBtn" onclick="sendMsg()" style="width:100%;justify-content:center">Send Message →</button>
+  <div class="f-status" id="fStatus"></div>
+  <p style="font-family:'DM Mono',monospace;font-size:.63rem;color:var(--muted);margin-top:12px;text-align:center;line-height:1.6">
+ 
+  </p>
+ </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+ <div class="ft-txt">© 2026 <span>Shahrukh Ahmed</span> · Pakistan</div>
+ <div class="ft-txt">Open to Full-Time, Freelance & Remote Work <span>Worldwide</span></div>
+</footer>
+
+<script>
+// ════════════════════════════════════════════════
+// EMAIL SETUP (FREE — takes 5 minutes)
+// 1. Go to https://emailjs.com → Sign up free
+// 2. Add Gmail as email service → copy Service ID
+// 3. Create a template with variables:
+//   {{from_name}}, {{from_email}}, {{project_type}}, {{message}}
+//   Set "To Email" = ashahrukh127@gmail.com
+// 4. Copy Template ID
+// 5. Account → API Keys → copy Public Key
+// 6. Paste below ↓
+// ════════════════════════════════════════════════
+const SVC = 'service_b247joi';  // e.g. service_abc123
+const TMPL = 'template_972ptnl';  // e.g. template_xyz456
+const KEY = 'L6XsRCsmUgI1P0_mk';  // e.g. aBcDeFgH123456
+
+emailjs.init(KEY);
+
+function sendMsg() {
+ const btn = document.getElementById('sendBtn');
+ const st = document.getElementById('fStatus');
+ const n = document.getElementById('fn').value.trim();
+ const e = document.getElementById('fe').value.trim();
+ const p = document.getElementById('fp').value.trim();
+ const m = document.getElementById('fm').value.trim();
+
+ st.className = 'f-status';
+
+ if (!n || !e || !m) {
+  st.className = 'f-status err';
+  st.textContent = ' Name, email and message are required.';
+  return;
+ }
+ if (!/\S+@\S+\.\S+/.test(e)) {
+  st.className = 'f-status err';
+  st.textContent = ' Please enter a valid email address.';
+  return;
+ }
+
+ btn.textContent = 'Sending...';
+ btn.disabled = true;
+
+ emailjs.send(SVC, TMPL, {
+  from_name:  n,
+  from_email:  e,
+  project_type: p || 'Not specified',
+  message:   m,
+  to_email:   'ashahrukh127@gmail.com'
+ }).then(() => {
+  st.className = 'f-status ok';
+  st.textContent = ' Sent! Shahrukh will reply to ' + e + ' soon.';
+  btn.textContent = '✓ Sent';
+  ['fn','fe','fp','fm'].forEach(id => document.getElementById(id).value = '');
+ }).catch(err => {
+  st.className = 'f-status err';
+  st.textContent = ' Could not send. Email directly: ashahrukh127@gmail.com';
+  btn.textContent = 'Send Message →';
+  btn.disabled = false;
+  console.error(err);
+ });
+}
+
+// Scroll reveal
+const obs = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible') }), {threshold:.1});
+document.querySelectorAll('.reveal').forEach(r => obs.observe(r));
+
+// Skill bars
+const skObs = new IntersectionObserver(es => {
+ es.forEach(e => {
+  if (e.isIntersecting) {
+   const w = parseFloat(e.target.getAttribute('data-w') || .8);
+   e.target.style.width = (w*100)+'%';
+   setTimeout(() => e.target.classList.add('on'), 200);
+  }
+ });
+}, {threshold:.3});
+document.querySelectorAll('.sk-fill').forEach(f => { f.style.transform='scaleX(0)'; skObs.observe(f); });
+
+// Mobile navigation toggle
+const navToggle = document.querySelector('.nav-toggle');
+const navEl = document.querySelector('nav');
+const navLinks = document.querySelectorAll('.nav-links a');
+if (navToggle && navEl) {
+ navToggle.addEventListener('click', () => {
+  const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+  navToggle.setAttribute('aria-expanded', String(!expanded));
+  navToggle.classList.toggle('open');
+  navEl.classList.toggle('nav-open');
+ });
+}
+navLinks.forEach(link => link.addEventListener('click', () => {
+ navToggle.setAttribute('aria-expanded', 'false');
+ navToggle.classList.remove('open');
+ navEl.classList.remove('nav-open');
+}));
+
+// Active nav
+const secs = document.querySelectorAll('section[id]');
+const nls = document.querySelectorAll('nav ul a');
+window.addEventListener('scroll', () => {
+ let cur = '';
+ secs.forEach(s => { if(window.scrollY >= s.offsetTop-100) cur = s.id; });
+ nls.forEach(a => { a.style.color = a.getAttribute('href')==='#'+cur ? 'var(--accent)' : ''; });
+});
+</script>
+</body>
+</html>
